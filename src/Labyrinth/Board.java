@@ -1,6 +1,6 @@
 package Labyrinth;
 
-public class Board {
+public class Board  {
     private int[][] boardSize;
     private int[][] space;
 
@@ -11,5 +11,8 @@ public class Board {
 
     public int[][] getBoardSize() {
         return boardSize;
+    }
+
+    public static void getPosition(){
     }
 }
